@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<link rel="stylesheet" href="css/style.css" />
+
+<script type="text/javascript" src="jquery-1.7.1.js"></script>
+
+<script type="text/javascript" src="smoke/smoke.js"></script>
+
+<script type='text/javascript'>//<![CDATA[
+
+$(window).load(function(){
+var angle = 0;
+setInterval(function(){
+      angle+=3;
+     $("#layer1").rotate(angle);
+},50);
+});//]]> 
+
+
+</script>
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var angle = 0;
+setInterval(function(){
+      angle+=-3;
+     $("#layer2").rotate(angle);
+},50);
+});//]]> 
+
+</script>
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var angle = 0;
+setInterval(function(){
+      angle+=3;
+     $("#layer3").rotate(angle);
+},50);
+});//]]> 
+
+</script> 
+
+
+</head>
+
+
+<body id="indexB">
+
+<canvas id="canvas" style="position:absolute;">
+
+</canvas>
+<script>
+	var canvas = document.getElementById('canvas')
+	var ctx = canvas.getContext('2d')
+	canvas.width = innerWidth
+	canvas.height = innerHeight
+
+	var party = smokemachine(ctx, [54, 16.8, 18.2])
+	party.start() // start animating
+
+	onmousemove = function (e) {
+		var x = e.clientX
+		var y = e.clientY
+		var n = .5
+		var t = Math.floor(Math.random() * 200) + 3800
+		party.addsmoke(x, y, n, t)
+	}
+
+	setInterval(function(){
+		party.addsmoke(innerWidth/2, innerHeight, 1)
+	}, 100)
+
+</script>
+
+<script type="text/javascript" src="jQueryRotateCompressed.js"></script>
+
+
+<div id="layer-2">
+<img id="layer2" src="images/layer 2.gif" alt="Dei Aemeth" />
+</div>
+
+<div id="layer-3">
+<img id="layer3" src="images/layer3.gif" alt="Sigillum" />
+</div>
+
+<div id="layer-1">
+
+<a href="main.html"><img id="layer1" src="images/layer1.gif" alt="Enter!" /></a>
+
+</div>
+
+<div class="enter">
+<img src="images/enter.gif" alt="Enter below"  />
+</div>
+
+</body>
+</html>

@@ -1,0 +1,292 @@
+/*
+index.html styling
+*/
+#indexB {
+    margin: 0;
+    padding: 0;
+}
+#canvas {
+	padding:0;
+	margin:0;
+}
+.enter {
+	top:400px;
+	left:610px;
+	position:absolute;
+}
+#layer-1 {
+	top:486px; 
+	left:659px; 
+	position:absolute;
+}
+#layer-2 {
+	top:463px; 
+	left:636.5px; 
+	position:absolute;
+}
+#layer-3 {
+	top:460px; 
+	left:630px; 
+	position:absolute;
+}
+/* the following is used for the menu's & footers on all pages bar index.html */
+#copyright {
+	float:left;
+	display:block;
+	text-align:left;
+	color:white;
+}
+#menu {
+	position:fixed;
+	width:100%;
+}
+li {
+	display:inline;
+	float:right;
+}
+li a {
+	display:block;
+	border-radius:45px;
+	color:blue;
+	text-align:center;
+	padding:14px 16px;
+}
+li a:hover:not(.active){
+	background-color:white;
+}
+.active {
+	background-color:red;
+}
+ul {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:gray;
+}
+#footer {
+	margin:auto;
+	width:120px;
+	height:30px;
+}
+#fb {
+	float:left;
+}
+#tw {
+	float:left;
+}
+#yt {
+	float:left;
+}
+/* end of menu & footer styling */
+
+/*
+main.html styling
+*/
+body{
+	margin-top:0;
+}
+#holder
+{
+	padding-top:40px;
+	width:100%;
+	margin:auto;
+	height:400px;
+}
+#D {
+	float:left;
+	width:300px;
+}
+
+#A {
+	float:right;
+	width:220px;
+}
+#N {
+	float:left;
+	width:220px;
+}
+#q1 {
+	float:left;
+	-ms-transform:rotate(7deg);
+	-webkit-transform:rotate(7deg);
+	transform:rotate(7deg);
+}
+#q2 {
+	float:right;
+}
+#mainbody {
+	height:130px;
+}
+#q3 {
+	float:left;
+	-ms-transform:rotate(-17deg);
+	-webkit-transform:rotate(-17deg);
+	transform:rotate(-17deg);
+}
+#q4 {
+	float:left;
+	-ms-transform:rotate(-17deg);
+	-webkit-transform:rotate(-17deg);
+	transform:rotate(-17deg);
+}
+#q5 {
+	float:left;	
+}
+#q6 {
+	float:left;
+	-ms-transform:rotate(-27deg);
+	-webkit-transform:rotate(-27deg);
+	transform:rotate(-27deg);
+}
+#q7 {
+	float:left;
+}
+#q8 {
+	float:right;
+}
+#q9 {
+	float:right;
+	-ms-transform:rotate(17deg);
+	-webkit-transform:rotate(17deg);
+	transform:rotate(17deg);
+}
+#q0 {
+	float:left;
+	-ms-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+	transform:rotate(-30deg);	
+}
+#q10 {
+	float:left;
+	-ms-transform:rotate(20deg);
+	-webkit-transform:rotate(20deg);
+	transform:rotate(20deg);	
+}
+#q11 {
+	float:right;
+	-ms-transform:rotate(-4deg);
+	-webkit-transform:rotate(-4deg);
+	transform:rotate(-4deg);	
+}
+/*
+about.html styling
+*/
+#aboutContainer {
+	width:100%;
+	height:600px;
+}
+#members {
+	padding-top:50px;
+	width:999px;
+	height:650px;
+	margin:auto;
+}
+#gaz {
+	float:left;
+	width:333px;
+}
+#gazimg {
+	float:left;
+}
+#gaztext {
+	overflow: -wrap;
+}
+#pidgey {
+	float:left;
+	width:333px;
+}
+#pidgeyimg {
+	float:left;
+}
+#pidgeytext {
+	overflow: -wrap;
+}
+#neo {
+	float:left;
+	width:333px;
+}
+#neoimg {
+	float:left;
+}
+#neotext {
+	overflow: -wrap;
+}
+#bannerimg {
+	height:400px;
+	margin:auto;
+	width:700px;
+	text-align:justify;
+	overflow: -wrap;
+}
+#banner {
+	margin:auto;
+	border-radius:45px;
+}
+/*
+music.html styling
+*/
+#music {
+	padding-top:50px;
+	background-image:url("../images/newspaper.jpg");
+	height:400px;
+	width:1000px;
+	margin:auto;
+}
+h3 {
+	text-align:center;
+}
+#deprived {
+	padding:5px;
+	width:150px;
+	float:left;
+	overflow: -wrap;
+	text-align:justify;
+}
+.musicimg {
+	display:block;
+	margin:auto;
+}
+#bilder {
+	padding:5px;
+	width:150px;
+	float:left;
+}
+#vicky {
+	padding:5px;
+	width:150px;
+	float:left;
+}
+#drunk {
+	padding:5px;
+	width:150px;
+	float:left;
+}
+#rubber {
+	padding:5px;
+	width:150px;
+	float:left;
+}
+#rag {
+	padding:5px;
+	width:150px;
+	float:left;
+}
+/*
+videos.html styling
+*/
+#videos {
+	padding-top:50px;
+}
+#vidtitle {
+	text-align:center;
+}
+#silkvicky {
+	float:left;
+}
+#raise {
+	float:right;
+}
+#bilderberg {
+	width:520px;
+	margin:auto;
+}
