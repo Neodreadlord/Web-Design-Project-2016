@@ -3,6 +3,9 @@ index.html styling
 */
 /*Firefox specific*/
 @supports (-moz-appearance:meterbar) {
+	#indexB {
+		background-color: black;
+	}
 	#canvas {
 		color:white;
 		width:769px;
