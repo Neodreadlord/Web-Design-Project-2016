@@ -1,6 +1,17 @@
 /*
 index.html styling
 */
+/*Firefox specific*/
+@supports (-moz-appearance:meterbar) {
+	#canvas {
+		color:white;
+		width:769px;
+		height:432px;
+		background-image: url("../images/dnastrand.gif");
+		left:350px;
+	}
+}
+/*other browsers*/
 
 #indexB {
     margin: 0;
