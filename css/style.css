@@ -7,10 +7,8 @@ index.html styling
 		background-color: black;
 	}
 	#canvas {
-		color:white;
-		width:769px;
-		height:432px;
 		background-image: url("../images/dnastrand.gif");
+		background-repeat: no-repeat;
 		left:350px;
 	}
 }
